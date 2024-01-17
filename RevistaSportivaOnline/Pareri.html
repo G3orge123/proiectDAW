@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Păreri - Revista Sportivă Online</title>
+    <link rel="stylesheet" href="Pareri.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Revista Sportivă Online - Păreri</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Acasă</a></li>
+                    <li><a href="fotbal.html">Fotbal</a></li>
+                    <li><a href="AlteSporturi.html">Alte Sporturi</a></li>
+                    <li><a href="Rezultate.html">Rezultate</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>Exprimă-ți Părerea</h2>
+            <p>Ne interesează părerea ta despre știrile noastre și despre site. Te rugăm să ne oferi feedback-ul tău:</p>
+            <form action="pareri.php" method="post">
+                <label for="nume">nume:</label>
+                <input type="text" id="nume" name="nume" required>
+    
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="feedback">feedback:</label>
+                <textarea id="feedback" name="feedback" required></textarea>
+    
+                <input type="submit" value="Trimite Părerea">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Revista Sportivă Online</p>
+    </footer>
+</body>
+</html>

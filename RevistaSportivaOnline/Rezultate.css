@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.titlu-centralizat {
+    text-align: center;
+    font-size: 24px; /* Ajustează mărimea conform preferințelor */
+    margin: 20px 0; /* Spațiu deasupra și dedesubtul titlului */
+}
+
+.container-rezultate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rand-rezultate {
+    width: 100%; /* Ocupă întreaga lățime */
+    margin-bottom: 20px; /* Spațiu între rânduri */
+    display: flex;
+    justify-content: space-around;
+}
+
+.rand-rezultate img {
+    width: 45%; /* Ajustează mărimea imaginilor */
+    height: auto;
+}
